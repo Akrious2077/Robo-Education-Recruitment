@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5"/>
+  <g id="header" data-pptx-bounds="64 52 1152 158" fill="#16395B">
+    <text x="64" y="76" font-size="16" fill="#627282">02 / 软件界面</text>
+    <text x="64" y="139" font-size="44" font-weight="bold">先认识专业版的五个操作区域</text>
+    <text x="64" y="190">先找图页，再放器件；<tspan font-weight="bold">选中对象</tspan>后修改属性。</text>
+  </g>
+  <g id="workspace-map" data-pptx-bounds="62 226 676 350" fill="#243447" font-size="20">
+    <rect x="64" y="228" width="672" height="346" fill="#FFFFFF" stroke="#D5DEE6" stroke-width="2"/>
+    <rect x="64" y="228" width="672" height="54" fill="#16395B"/>
+    <circle cx="87" cy="255" r="16" fill="#E77532"/>
+    <text x="87" y="262" text-anchor="middle" fill="#FFFFFF">2</text>
+    <text x="114" y="262" fill="#FFFFFF">顶部菜单 / 工具栏</text>
+    <text x="472" y="262" fill="#FFFFFF">放置　设计　导出</text>
+    <rect x="64" y="282" width="140" height="222" fill="#16395B" fill-opacity="0.06"/>
+    <circle cx="87" cy="308" r="16" fill="#E77532"/>
+    <text x="87" y="315" text-anchor="middle" fill="#FFFFFF">1</text>
+    <text x="113" y="315" font-weight="bold">图页</text>
+    <text x="80" y="355" fill="#16395B">RC_Filter</text>
+    <line x1="87" y1="367" x2="87" y2="470" stroke="#D5DEE6" stroke-width="2"/>
+    <line x1="87" y1="392" x2="99" y2="392" stroke="#D5DEE6" stroke-width="2"/>
+    <line x1="87" y1="428" x2="99" y2="428" stroke="#D5DEE6" stroke-width="2"/>
+    <line x1="87" y1="464" x2="99" y2="464" stroke="#D5DEE6" stroke-width="2"/>
+    <text x="102" y="399">仿真</text>
+    <text x="102" y="435">原理图</text>
+    <text x="102" y="471">PCB</text>
+    <rect x="604" y="282" width="132" height="222" fill="#377D80" fill-opacity="0.08"/>
+    <circle cx="628" cy="308" r="16" fill="#E77532"/>
+    <text x="628" y="315" text-anchor="middle" fill="#FFFFFF">4</text>
+    <text x="653" y="315" font-weight="bold">属性</text>
+    <text x="618" y="368">位号　R1</text>
+    <text x="618" y="407">值　1 kΩ</text>
+    <text x="618" y="446">封装</text>
+    <text x="618" y="477">0603</text>
+    <line x1="204" y1="282" x2="204" y2="504" stroke="#D5DEE6"/>
+    <line x1="604" y1="282" x2="604" y2="504" stroke="#D5DEE6"/>
+    <circle cx="245" cy="310" r="16" fill="#E77532"/>
+    <text x="245" y="317" text-anchor="middle" fill="#FFFFFF">3</text>
+    <text x="272" y="317" font-weight="bold">画布 / 当前图页</text>
+    <text x="228" y="381" fill="#16395B">VIN</text>
+    <text x="524" y="381" fill="#377D80">VOUT</text>
+    <text x="350" y="381" fill="#16395B">R1</text>
+    <line x1="247" y1="403" x2="338" y2="403" stroke="#16395B" stroke-width="3"/>
+    <rect x="338" y="389" width="64" height="28" fill="#FFFFFF" stroke="#16395B" stroke-width="2"/>
+    <line x1="402" y1="403" x2="556" y2="403" stroke="#377D80" stroke-width="3"/>
+    <line x1="475" y1="403" x2="475" y2="435" stroke="#377D80" stroke-width="3"/>
+    <line x1="455" y1="435" x2="495" y2="435" stroke="#377D80" stroke-width="3"/>
+    <line x1="455" y1="445" x2="495" y2="445" stroke="#377D80" stroke-width="3"/>
+    <line x1="475" y1="445" x2="475" y2="472" stroke="#377D80" stroke-width="3"/>
+    <line x1="455" y1="472" x2="495" y2="472" stroke="#377D80" stroke-width="2"/>
+    <line x1="461" y1="479" x2="489" y2="479" stroke="#377D80" stroke-width="2"/>
+    <line x1="467" y1="486" x2="483" y2="486" stroke="#377D80" stroke-width="2"/>
+    <text x="504" y="448" fill="#377D80">C1</text>
+    <circle cx="247" cy="403" r="4" fill="#16395B"/>
+    <circle cx="475" cy="403" r="4" fill="#377D80"/>
+    <circle cx="556" cy="403" r="4" fill="#377D80"/>
+    <rect x="64" y="504" width="672" height="70" fill="#16395B" fill-opacity="0.06"/>
+    <line x1="64" y1="504" x2="736" y2="504" stroke="#D5DEE6"/>
+    <circle cx="87" cy="539" r="16" fill="#E77532"/>
+    <text x="87" y="546" text-anchor="middle" fill="#FFFFFF">5</text>
+    <text x="114" y="546" font-weight="bold">元件库</text>
+    <text x="262" y="546">搜索器件　查看封装　放置</text>
+  </g>
+  <g id="page-tree-guide" data-pptx-bounds="782 224 434 69" fill="#16395B">
+    <text x="784" y="248" fill="#E77532">①</text><text x="826" y="248" font-weight="bold">图页树｜选择文件</text>
+    <text x="826" y="281" font-size="20" fill="#627282">双击图页，切换仿真、原理图与PCB。</text>
+  </g>
+  <g id="menu-guide" data-pptx-bounds="782 298 434 69" fill="#16395B">
+    <text x="784" y="322" fill="#E77532">②</text><text x="826" y="322" font-weight="bold">菜单｜执行命令</text>
+    <text x="826" y="355" font-size="20" fill="#627282">按当前图页执行放置、设计与导出。</text>
+  </g>
+  <g id="canvas-guide" data-pptx-bounds="782 372 434 69" fill="#16395B">
+    <text x="784" y="396" fill="#E77532">③</text><text x="826" y="396" font-weight="bold">画布｜编辑连接</text>
+    <text x="826" y="429" font-size="20" fill="#627282">在当前图页放置元件、连接电路。</text>
+  </g>
+  <g id="property-guide" data-pptx-bounds="782 446 434 69" fill="#16395B">
+    <text x="784" y="470" fill="#E77532">④</text><text x="826" y="470" font-weight="bold">属性｜核对参数</text>
+    <text x="826" y="503" font-size="20" fill="#627282">先选中器件，再改位号、值及封装。</text>
+  </g>
+  <g id="library-guide" data-pptx-bounds="782 520 434 69" fill="#16395B">
+    <text x="784" y="544" fill="#E77532">⑤</text><text x="826" y="544" font-weight="bold">元件库｜搜索与放置</text>
+    <text x="826" y="577" font-size="20" fill="#627282">搜索器件，双击或点击“放置”。</text>
+  </g>
+  <g id="diagram-qualification" data-pptx-bounds="64 589 674 40" fill="#627282" font-size="16">
+    <text x="64" y="612">界面区域示意，非软件截图；面板位置随界面布局变化。</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16">
+    <line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6"/>
+    <text x="64" y="678">资料：嘉立创EDA专业版用户指南 / 使用界面、图页、属性、元件库（prodocs.lceda.cn）</text>
+    <text x="1216" y="678" text-anchor="end">03 / 14</text>
+  </g>
+</svg>

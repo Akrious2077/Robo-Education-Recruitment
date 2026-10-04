@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="cover">
+<rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5" />
+<g id="course-kicker" data-pptx-bounds="64 60 560 40" fill="#627282" font-size="16"><text x="64" y="82">电子设计 </text></g>
+<g id="cover-title" data-pptx-bounds="64 164 600 218" fill="#16395B" font-size="80" font-weight="bold"><text x="64" y="246">PCB设计</text><text x="64" y="344">与仿真</text></g>
+<g id="cover-subtitle" data-pptx-bounds="64 392 590 68" fill="#243447" font-size="32"><text x="64" y="433">嘉立创EDA专业版入门</text></g>
+<g id="cover-promise" data-pptx-bounds="64 479 590 116" fill="#243447"><rect x="64" y="480" width="5" height="94" fill="#E77532" /><text x="88" y="511">从电路到电路板</text><text x="88" y="555" font-size="20" fill="#627282">认识流程 · 理解模型与封装 · 掌握检查要点</text></g>
+<g id="sketch-sheet" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="foldedCorner" data-pptx-frame="700 170 500 420" fill="#FFFFFF" stroke="#D5DEE6" stroke-width="2">
+<path d="M 700 170 L 1200 170 L 1200 520 L 1130 590 L 700 590 Z" stroke="none" />
+<path d="M 1130 590 L 1144 534 L 1200 520 Z" fill="#D1D1D1" stroke="none" />
+<path d="M 1130 590 L 1144 534 L 1200 520 L 1130 590 L 700 590 L 700 170 L 1200 170 L 1200 520" fill="none" />
+</g>
+<g id="rc-cover-sketch" data-pptx-bounds="744 218 414 314" fill="#16395B" font-size="20">
+<rect x="750" y="230" width="398" height="280" rx="4" fill-opacity="0.04" stroke="#16395B" stroke-width="2" />
+<circle cx="776" cy="254" r="7" fill="#FFFFFF" stroke="#D5DEE6" stroke-width="2" /><circle cx="1122" cy="254" r="7" fill="#FFFFFF" stroke="#D5DEE6" stroke-width="2" />
+<text x="778" y="298">输入</text><text x="1064" y="298" fill="#377D80">输出</text>
+<line x1="788" y1="340" x2="866" y2="340" stroke="#16395B" stroke-width="4" /><rect x="866" y="324" width="72" height="32" fill="#FFFFFF" stroke="#16395B" stroke-width="3" /><line x1="938" y1="340" x2="1104" y2="340" stroke="#377D80" stroke-width="4" />
+<circle cx="788" cy="340" r="7" /><circle cx="1104" cy="340" r="7" fill="#377D80" /><circle cx="1008" cy="340" r="5" fill="#377D80" />
+<line x1="1008" y1="340" x2="1008" y2="389" stroke="#377D80" stroke-width="3" /><line x1="986" y1="389" x2="1030" y2="389" stroke="#377D80" stroke-width="4" /><line x1="986" y1="405" x2="1030" y2="405" stroke="#377D80" stroke-width="4" /><line x1="1008" y1="405" x2="1008" y2="454" stroke="#377D80" stroke-width="3" />
+<line x1="982" y1="454" x2="1034" y2="454" stroke="#377D80" stroke-width="3" /><line x1="990" y1="465" x2="1026" y2="465" stroke="#377D80" stroke-width="3" /><line x1="998" y1="476" x2="1018" y2="476" stroke="#377D80" stroke-width="3" />
+<text x="892" y="313">R</text><text x="1048" y="408">C</text>
+<path d="M 780 489 Q 841 484 903 489" fill="none" stroke="#E77532" stroke-width="3" stroke-linecap="round" />
+</g>
+<g id="sketch-caption" data-pptx-bounds="735 537 345 39" fill="#627282" font-size="16"><text x="748" y="560">RC低通 · 课堂示意图</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16"><line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6" /><text x="64" y="678">电子基础微课 / 约10分钟</text><text x="1216" y="678" text-anchor="end">01 / 14</text></g>
+</svg>

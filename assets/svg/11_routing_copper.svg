@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+<rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5" />
+<g id="header" data-pptx-bounds="64 52 1152 126" fill="#16395B"><text x="64" y="76" font-size="16" fill="#627282">10 / 布线与铺铜</text><text x="64" y="139" font-size="44" font-weight="bold">布线与铺铜，连接要闭合</text></g>
+<g id="routed-board" data-pptx-bounds="64 219 664 354" fill="#16395B" font-size="20">
+<rect x="80" y="223" width="632" height="344" rx="4" fill="#FFFFFF" stroke="#16395B" stroke-width="3" />
+<text x="103" y="259" font-size="16" fill="#627282">同一布局 / 新增信号线与GND铜区</text>
+<rect x="96" y="441" width="600" height="105" fill="#377D80" fill-opacity="0.14" />
+<g id="signal-traces" stroke="#E77532" stroke-width="8"><line x1="134" y1="354" x2="276" y2="354" /><line x1="368" y1="354" x2="516" y2="366" /><line x1="516" y1="366" x2="634" y2="354" /></g>
+<g id="ground-links" stroke="#377D80" stroke-width="8"><line x1="134" y1="464" x2="134" y2="525" /><line x1="516" y1="472" x2="516" y2="525" /><line x1="634" y1="464" x2="634" y2="525" /></g>
+<g id="connector-pads" fill="#FFFFFF" stroke="#16395B" stroke-width="3"><circle cx="134" cy="354" r="13" /><circle cx="134" cy="464" r="13" /><circle cx="634" cy="354" r="13" /><circle cx="634" cy="464" r="13" /></g>
+<g id="resistor-footprint" stroke-width="2"><rect x="260" y="332" width="32" height="44" fill="#E77532" stroke="#E77532" /><rect x="352" y="332" width="32" height="44" fill="#E77532" stroke="#E77532" /><rect x="292" y="332" width="60" height="44" fill="#D5DEE6" stroke="#16395B" /></g>
+<g id="capacitor-footprint" stroke-width="2"><rect x="500" y="344" width="32" height="44" fill="#E77532" stroke="#E77532" /><rect x="500" y="450" width="32" height="44" fill="#377D80" stroke="#377D80" /><rect x="500" y="388" width="32" height="62" fill="#D5DEE6" stroke="#16395B" /></g>
+<text x="107" y="311">J1 / VIN</text><text x="580" y="311">J2 / VOUT</text><text x="269" y="307">R1 / 1 kΩ</text><text x="559" y="419">C1</text><text x="559" y="451">100 nF</text><text x="280" y="516" fill="#377D80">GND铜区（示意）</text>
+</g>
+<g id="routing-guidance" data-pptx-bounds="784 212 432 379" fill="#243447"><text x="784" y="250" font-size="32" font-weight="bold" fill="#16395B">先接通，再检查</text><text x="784" y="313">VIN → R → VOUT</text><text x="784" y="356" font-size="20" fill="#627282">C从输出节点接到GND。</text><text x="784" y="423">少绕行，减少跨层</text><text x="784" y="486">铜区选对层与网络</text><text fill="#627282" font-size="20" x="784" y="537">修改后重建铜区，</text><text fill="#627282" font-size="20" x="784" y="569">核对GND连接与剩余飞线。</text></g>
+<g id="routing-note" data-pptx-bounds="64 594 1152 36" fill="#627282" font-size="16"><text x="64" y="618">情景示意，未执行软件DRC。铺铜不会自动证明接地质量；线宽、间距和板边距离按实际规则检查。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16"><line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6" /><text x="64" y="678" /><text x="1216" y="678" text-anchor="end">11 / 14</text></g>
+</svg>

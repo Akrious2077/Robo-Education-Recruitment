@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+<rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5" />
+<g id="header" data-pptx-bounds="64 52 1152 126" fill="#16395B"><text x="64" y="76" font-size="16" fill="#627282">04 / 案例电路</text><text x="64" y="139" font-size="44" font-weight="bold">先认识这个RC低通电路</text></g>
+<g id="rc-schematic" data-pptx-bounds="64 213 664 348" fill="#16395B" font-size="20">
+<rect x="64" y="214" width="664" height="344" rx="4" fill="#FFFFFF" />
+<text x="98" y="254" fill="#627282" font-size="16">情景参数 / 理想模型</text>
+<text x="120" y="305">VIN</text><text x="602" y="305" fill="#377D80">VOUT</text>
+<line x1="133" y1="350" x2="277" y2="350" stroke="#16395B" stroke-width="4" /><circle cx="133" cy="350" r="7" />
+<rect x="277" y="333" width="92" height="34" fill="#FAF9F5" stroke="#16395B" stroke-width="3" /><text x="292" y="309">R = 1 kΩ</text>
+<line x1="369" y1="350" x2="636" y2="350" stroke="#377D80" stroke-width="4" /><circle cx="636" cy="350" r="7" fill="#377D80" /><circle cx="493" cy="350" r="5" fill="#377D80" />
+<line x1="493" y1="350" x2="493" y2="416" stroke="#377D80" stroke-width="3" /><line x1="465" y1="416" x2="521" y2="416" stroke="#377D80" stroke-width="4" /><line x1="465" y1="433" x2="521" y2="433" stroke="#377D80" stroke-width="4" /><text x="550" y="433">C = 100 nF</text>
+<line x1="493" y1="433" x2="493" y2="486" stroke="#377D80" stroke-width="3" /><line x1="465" y1="486" x2="521" y2="486" stroke="#377D80" stroke-width="3" /><line x1="474" y1="497" x2="512" y2="497" stroke="#377D80" stroke-width="3" /><line x1="482" y1="508" x2="504" y2="508" stroke="#377D80" stroke-width="3" />
+<text x="550" y="507" fill="#627282">输出跨接电容</text>
+</g>
+<g id="filter-behavior" data-pptx-bounds="784 204 432 74" fill="#16395B" font-size="32" font-weight="bold"><text x="784" y="248">保留低频，减弱高频</text></g>
+<g id="cutoff-equation" data-pptx-replace-with="formula" data-pptx-x="784" data-pptx-y="288" data-pptx-width="410" data-pptx-height="110" data-pptx-bounds="784 288 410 110">
+<metadata type="application/json">{"latex":"f_c=\\frac{1}{2\\pi RC}","display":"block","font_size":32,"color":"#16395B","align":"left"}</metadata>
+<text x="802" y="350" font-size="32" fill="#16395B">f<tspan baseline-shift="sub" font-size="20">c</tspan> =</text><text x="973" y="326" fill="#16395B" text-anchor="middle">1</text><line x1="892" y1="338" x2="1054" y2="338" stroke="#16395B" stroke-width="2" /><text x="973" y="376" fill="#16395B" text-anchor="middle">2πRC</text>
+</g>
+<g id="parameter-results" data-pptx-bounds="784 404 432 144" fill="#243447"><text x="784" y="451" font-size="36" font-family="Consolas, Microsoft YaHei, monospace" fill="#E77532">≈ 1.59 kHz</text><text x="784" y="504">τ = RC = 100 μs</text><text x="784" y="540" font-size="20" fill="#627282">示例参数计算，无实测数据</text></g>
+<g id="context" data-pptx-bounds="64 582 1152 48" fill="#243447" font-size="20"><text x="64" y="608">应用：传感器信号滤波。实际设计还要评估源阻抗、负载和元件容差。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16"><line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6" /><text x="64" y="678" /><text x="1216" y="678" text-anchor="end">05 / 14</text></g>
+</svg>

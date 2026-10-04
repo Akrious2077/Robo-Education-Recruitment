@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+<rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5" />
+<g id="header" data-pptx-bounds="64 52 1152 126" fill="#16395B"><text x="64" y="76" font-size="16" fill="#627282">11 / 设计复核</text><text x="64" y="139" font-size="44" font-weight="bold">DRC通过，还要人工复核</text></g>
+<g id="drc-bracket" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="leftBracket" data-pptx-frame="64 247 22 285" fill="none" stroke="#16395B" stroke-width="2"><path d="M 86 532 A 22 1.83 0 0 1 64 530.17 L 64 248.83 A 22 1.83 0 0 1 86 247 Z" stroke="none" /><path d="M 86 532 A 22 1.83 0 0 1 64 530.17 L 64 248.83 A 22 1.83 0 0 1 86 247" /></g>
+<g id="manual-bracket" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="leftBracket" data-pptx-frame="698 247 22 285" fill="none" stroke="#377D80" stroke-width="2"><path d="M 720 532 A 22 1.83 0 0 1 698 530.17 L 698 248.83 A 22 1.83 0 0 1 720 247 Z" stroke="none" /><path d="M 720 532 A 22 1.83 0 0 1 698 530.17 L 698 248.83 A 22 1.83 0 0 1 720 247" /></g>
+<g id="drc-checks" data-pptx-bounds="103 199 530 350" fill="#243447"><text x="103" y="236" font-size="32" font-weight="bold" fill="#16395B">规则检查</text><text x="103" y="294">连接是否完成</text><text x="103" y="331" font-size="20" fill="#627282">有无残余飞线、未连接网络。</text><text x="103" y="397">线宽、间距与板边</text><text x="103" y="434" font-size="20" fill="#627282">是否满足当前项目规则。</text><text x="103" y="500">核对制造商当前能力</text><text x="103" y="537" font-size="20" fill="#627282">用对应工艺要求设置规则。</text></g>
+<g id="manual-checks" data-pptx-bounds="738 199 478 350" fill="#243447"><text x="738" y="236" font-size="32" font-weight="bold" fill="#377D80">工程意图检查</text><text x="738" y="294">封装、引脚与方向</text><text x="738" y="331" font-size="20" fill="#627282">是否符合实际器件与连接意图。</text><text x="738" y="397">丝印与装配空间</text><text x="738" y="434" font-size="20" fill="#627282">文字能读，器件能装、能焊。</text><text x="738" y="500">电路功能与接口</text><text x="738" y="537" font-size="20" fill="#627282">DRC通过不证明电路功能正确。</text></g>
+<g id="review-takeaway" data-pptx-bounds="64 574 1152 59" fill="#16395B"><!-- icon: tabler-outline/checks -->
+  <g transform="translate(64, 581) scale(1.41667)" fill="none" stroke="#377D80" stroke-width="2">
+    <path d="M7 12l5 5l10 -10" />
+    <path d="M2 12l5 5m5 -5l5 -5" />
+  </g><text x="121" y="610" font-size="32">规则检查 + 人工复核，才构成完整交付检查。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16"><line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6" /><text x="64" y="678" /><text x="1216" y="678" text-anchor="end">12 / 14</text></g>
+</svg>

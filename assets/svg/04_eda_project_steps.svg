@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5"/>
+  <g id="header" data-pptx-bounds="64 52 1152 126" fill="#16395B">
+    <text x="64" y="76" font-size="16" fill="#627282">03 / 工程起步</text>
+    <text x="64" y="139" font-size="44" font-weight="bold">新建工程后，分两步完成RC案例</text>
+  </g>
+  <g id="create-project" data-pptx-bounds="62 198 1156 94" fill="#16395B">
+    <rect x="64" y="200" width="1152" height="90" fill="#FFFFFF" stroke="#D5DEE6" stroke-width="2"/>
+    <text x="88" y="236" font-weight="bold">开始页 → 创建工程 → 命名RC_Filter</text>
+    <text x="88" y="273" font-size="20" fill="#627282">默认创建板子、原理图与PCB；本课另建仿真图页，参数和网络与工程原理图逐项核对。</text>
+  </g>
+  <g id="simulation-lane" data-pptx-bounds="64 309 538 273" fill="#16395B">
+    <text x="64" y="337" font-size="32" font-weight="bold">A　仿真：验证电气行为</text>
+    <text x="64" y="393" fill="#E77532">1</text><text x="104" y="393" font-weight="bold">新建仿真 → NGSpice</text>
+    <text x="104" y="427" font-size="20" fill="#627282">工程树右键；首次按提示安装引擎。</text>
+    <text x="64" y="462" fill="#E77532">2</text><text x="104" y="462" font-weight="bold">连接R、C、信号源与GND</text>
+    <text x="104" y="496" font-size="20" fill="#627282">示例 R=1 kΩ，C=100 nF；核对接地。</text>
+    <text x="64" y="531" fill="#E77532">3</text><text x="104" y="531" font-weight="bold">放探针 → AC分析 → 运行</text>
+    <text x="104" y="565" font-size="20" fill="#627282">VIN/VOUT；10 Hz–100 kHz；比较波形。</text>
+  </g>
+  <g id="schematic-lane" data-pptx-bounds="678 309 538 273" fill="#16395B">
+    <text x="678" y="337" font-size="32" font-weight="bold" fill="#377D80">B　原理图：准备制造设计</text>
+    <text x="678" y="393" fill="#E77532">1</text><text x="718" y="393" font-weight="bold">打开原理图，搜索并放置器件</text>
+    <text x="718" y="427" font-size="20" fill="#627282">底部元件库；右侧核对值与封装。</text>
+    <text x="678" y="462" fill="#E77532">2</text><text x="718" y="462" font-weight="bold">放置 → 导线 / 网络标签</text>
+    <text x="718" y="496" font-size="20" fill="#627282">命名VIN、VOUT与GND，核对引脚。</text>
+    <text x="678" y="531" fill="#E77532">3</text><text x="718" y="531" font-weight="bold">设计 → 原理图转PCB</text>
+    <text x="718" y="565" font-size="20" fill="#627282">同一板子；核对变更后应用修改。</text>
+  </g>
+  <g id="lane-separator" data-pptx-bounds="637 318 6 267"><line x1="640" y1="320" x2="640" y2="582" stroke="#D5DEE6" stroke-width="2"/></g>
+  <g id="handoff-check" data-pptx-bounds="64 590 1152 43" fill="#16395B">
+    <text x="64" y="619">进入PCB前：两类图页的<tspan font-weight="bold">R、C参数与网络</tspan>必须一致。</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16">
+    <line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6"/>
+    <text x="64" y="678">按官方创建工程、仿真与转PCB指南整理；RC参数为课堂示例，菜单以实际版本为准。</text>
+    <text x="1216" y="678" text-anchor="end">04 / 14</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+<rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5" />
+<g id="header" data-pptx-bounds="64 52 1152 126" fill="#16395B"><text x="64" y="76" font-size="16" fill="#627282">09 / 元件布局</text><text x="64" y="139" font-size="44" font-weight="bold">布局先照顾信号路径</text></g>
+<g id="placement-board" data-pptx-bounds="64 219 664 354" fill="#16395B" font-size="20">
+<rect x="80" y="223" width="632" height="344" rx="4" fill="#FFFFFF" stroke="#16395B" stroke-width="3" />
+<text x="103" y="259" font-size="16" fill="#627282">教学布局示意 / 飞线尚未布线</text>
+<g id="airwires" stroke="#627282" stroke-width="2" stroke-dasharray="5,5"><line x1="134" y1="354" x2="276" y2="354" /><line x1="368" y1="354" x2="516" y2="366" /><line x1="516" y1="366" x2="634" y2="354" /><line x1="134" y1="464" x2="516" y2="472" /><line x1="516" y1="472" x2="634" y2="464" /></g>
+<g id="connector-pads" fill="#FFFFFF" stroke="#16395B" stroke-width="3"><circle cx="134" cy="354" r="13" /><circle cx="134" cy="464" r="13" /><circle cx="634" cy="354" r="13" /><circle cx="634" cy="464" r="13" /></g>
+<g id="resistor-footprint" stroke-width="2"><rect x="260" y="332" width="32" height="44" fill="#E77532" fill-opacity="0.3" stroke="#E77532" /><rect x="352" y="332" width="32" height="44" fill="#E77532" fill-opacity="0.3" stroke="#E77532" /><rect x="292" y="332" width="60" height="44" fill="#D5DEE6" stroke="#16395B" /></g>
+<g id="capacitor-footprint" stroke-width="2"><rect x="500" y="344" width="32" height="44" fill="#E77532" fill-opacity="0.3" stroke="#E77532" /><rect x="500" y="450" width="32" height="44" fill="#E77532" fill-opacity="0.3" stroke="#E77532" /><rect x="500" y="388" width="32" height="62" fill="#D5DEE6" stroke="#16395B" /></g>
+<text x="107" y="311">J1 / VIN</text><text x="580" y="311">J2 / VOUT</text><text x="269" y="307">R1 / 1 kΩ</text><text x="559" y="419">C1</text><text x="559" y="451">100 nF</text><text x="108" y="512" fill="#377D80">GND</text><text x="601" y="512" fill="#377D80">GND</text>
+</g>
+<g id="placement-guidance" data-pptx-bounds="784 212 432 379" fill="#243447"><text x="784" y="250" font-size="32" font-weight="bold" fill="#16395B">短而清楚的路径</text><text x="784" y="321">输入、输出接口分侧</text><text x="784" y="382">R沿信号路径放置</text><text x="784" y="443">C靠近输出节点</text><line x1="784" y1="479" x2="1216" y2="479" stroke="#D5DEE6" /><text fill="#627282" font-size="20" x="784" y="529">留出焊接与机械空间。</text><text fill="#627282" font-size="20" x="784" y="561">板形按器件和外壳确定。</text></g>
+<g id="placement-note" data-pptx-bounds="64 594 1152 36" fill="#627282" font-size="16"><text x="64" y="618">情景示意：不代表实际封装尺寸、制造参数或已通过软件DRC的板。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16"><line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6" /><text x="64" y="678" /><text x="1216" y="678" text-anchor="end">10 / 14</text></g>
+</svg>

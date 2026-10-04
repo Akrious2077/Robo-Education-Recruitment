@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+<rect id="page-bg" data-pptx-role="background" width="1280" height="720" fill="#FAF9F5" />
+<g id="header" data-pptx-bounds="64 52 1152 126" fill="#16395B"><text x="64" y="76" font-size="16" fill="#627282">07 / 从模型到实物</text><text x="64" y="139" font-size="44" font-weight="bold">模型与封装各有任务</text></g>
+<g id="model-side" data-pptx-bounds="64 214 532 328" fill="#243447"><!-- icon: tabler-outline/chart-line -->
+  <g transform="translate(64, 219) scale(1.66667)" fill="none" stroke="#16395B" stroke-width="2">
+    <path d="M4 19l16 0" />
+    <path d="M4 15l4 -6l4 2l4 -5l4 4" />
+  </g><text x="128" y="252" font-size="32" font-weight="bold" fill="#16395B">仿真模型</text><line x1="110" y1="354" x2="238" y2="354" stroke="#16395B" stroke-width="4" /><rect x="238" y="330" width="120" height="48" fill="#FFFFFF" stroke="#16395B" stroke-width="3" /><line x1="358" y1="354" x2="531" y2="354" stroke="#16395B" stroke-width="4" /><text x="298" y="310" text-anchor="middle" font-size="20">R = 1 kΩ</text><text x="64" y="464">描述电气行为与参数</text><text x="64" y="513" font-size="20" fill="#627282">用于计算电压、电流和频率响应。</text></g>
+<g id="comparison-rule" data-pptx-bounds="632 215 8 324"><line x1="636" y1="220" x2="636" y2="535" stroke="#D5DEE6" stroke-width="2" /></g>
+<g id="footprint-side" data-pptx-bounds="688 214 528 328" fill="#243447"><!-- icon: tabler-outline/cpu -->
+  <g transform="translate(688, 219) scale(1.66667)" fill="none" stroke="#377D80" stroke-width="2">
+    <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
+    <path d="M9 9h6v6h-6l0 -6" />
+    <path d="M3 10h2" />
+    <path d="M3 14h2" />
+    <path d="M10 3v2" />
+    <path d="M14 3v2" />
+    <path d="M21 10h-2" />
+    <path d="M21 14h-2" />
+    <path d="M14 21v-2" />
+    <path d="M10 21v-2" />
+  </g><text x="752" y="252" font-size="32" font-weight="bold" fill="#16395B">PCB封装</text><rect x="776" y="320" width="82" height="84" fill="#E77532" fill-opacity="0.2" stroke="#E77532" stroke-width="2" /><rect x="1052" y="320" width="82" height="84" fill="#E77532" fill-opacity="0.2" stroke="#E77532" stroke-width="2" /><rect x="881" y="327" width="148" height="70" fill="#FFFFFF" stroke="#16395B" stroke-width="2" /><text x="955" y="310" text-anchor="middle" font-size="20">0603（课堂示例）</text><text x="688" y="464">对应尺寸、焊盘与引脚</text><text x="688" y="513" font-size="20" fill="#627282">核对实物规格与符号引脚映射。</text></g>
+<g id="engineering-takeaway" data-pptx-bounds="64 569 1152 65" fill="#16395B"><rect x="64" y="572" width="5" height="47" fill="#E77532" /><text x="88" y="607">另建工程原理图：保持网络与R、C参数一致，再指定封装。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 650 1152 36" fill="#627282" font-size="16"><line x1="64" y1="650" x2="1216" y2="650" stroke="#D5DEE6" /><text x="64" y="678" /><text x="1216" y="678" text-anchor="end">08 / 14</text></g>
+</svg>
